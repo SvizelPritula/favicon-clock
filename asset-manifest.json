@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/favicon-clock/static/css/main.e18aba6c.chunk.css",
+    "main.js": "/favicon-clock/static/js/main.8d5ac8ae.chunk.js",
+    "main.js.map": "/favicon-clock/static/js/main.8d5ac8ae.chunk.js.map",
+    "runtime-main.js": "/favicon-clock/static/js/runtime-main.b91d8ac0.js",
+    "runtime-main.js.map": "/favicon-clock/static/js/runtime-main.b91d8ac0.js.map",
+    "static/js/2.21e1953a.chunk.js": "/favicon-clock/static/js/2.21e1953a.chunk.js",
+    "static/js/2.21e1953a.chunk.js.map": "/favicon-clock/static/js/2.21e1953a.chunk.js.map",
+    "index.html": "/favicon-clock/index.html",
+    "static/css/main.e18aba6c.chunk.css.map": "/favicon-clock/static/css/main.e18aba6c.chunk.css.map",
+    "static/js/2.21e1953a.chunk.js.LICENSE.txt": "/favicon-clock/static/js/2.21e1953a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b91d8ac0.js",
+    "static/js/2.21e1953a.chunk.js",
+    "static/css/main.e18aba6c.chunk.css",
+    "static/js/main.8d5ac8ae.chunk.js"
+  ]
+}
