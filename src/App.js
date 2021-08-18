@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import { useState } from "react";
+import SVGIcon from "react-svg-favicon";
+
+import Clock from "./Clock";
+import Controls from "./Controls";
+
+import { ThemeContext } from "./ThemeContext";
+
 import './App.css';
 
-function App() {
+export default function App() {
+  const [type, setType] = useState("analogue");
+  const [theme, setTheme] = useState("light");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <ThemeContext.Provider value={theme}>
+        <Clock type={type} />
+
+        <SVGIcon>
+          <Clock type={type} />
+        </SVGIcon>
+
+        <Controls
+          type={type} setType={setType}
+          theme={theme} setTheme={setTheme}
+        />
+      </ThemeContext.Provider>
+    </main>
   );
 }
-
-export default App;
