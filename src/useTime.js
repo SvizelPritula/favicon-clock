@@ -11,15 +11,15 @@ export default function useTime() {
   const [timestamp, setTimestamp] = useState(getTimestamp);
 
   useEffect(() => {
-    var animationFrame;
+    var interval;
 
     function updateTime() {
       setTimestamp(getTimestamp());
-      animationFrame = requestAnimationFrame(updateTime);
     }
 
-    animationFrame = requestAnimationFrame(updateTime);
-    return () => cancelAnimationFrame(animationFrame);
+    interval = setInterval(updateTime, 100);
+    updateTime();
+    return () => clearInterval(interval);
   }, []);
 
   var date = new Date(timestamp * 1000);
