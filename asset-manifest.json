@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/favicon-clock/static/css/main.e18aba6c.chunk.css",
-    "main.js": "/favicon-clock/static/js/main.8d5ac8ae.chunk.js",
-    "main.js.map": "/favicon-clock/static/js/main.8d5ac8ae.chunk.js.map",
+    "main.js": "/favicon-clock/static/js/main.979c495e.chunk.js",
+    "main.js.map": "/favicon-clock/static/js/main.979c495e.chunk.js.map",
     "runtime-main.js": "/favicon-clock/static/js/runtime-main.b91d8ac0.js",
     "runtime-main.js.map": "/favicon-clock/static/js/runtime-main.b91d8ac0.js.map",
     "static/js/2.21e1953a.chunk.js": "/favicon-clock/static/js/2.21e1953a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b91d8ac0.js",
     "static/js/2.21e1953a.chunk.js",
     "static/css/main.e18aba6c.chunk.css",
-    "static/js/main.8d5ac8ae.chunk.js"
+    "static/js/main.979c495e.chunk.js"
   ]
 }
